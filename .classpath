@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="Algoritmos avançados e resolução de problemas de programação - Parte 1/src"/>
+	<classpathentry kind="output" path="Algoritmos avançados e resolução de problemas de programação - Parte 1/bin"/>
+</classpath>
