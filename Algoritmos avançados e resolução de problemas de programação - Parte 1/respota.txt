@@ -1,0 +1,21 @@
+Sim, é possível calcular o fatorial de um número acima de 100
+ com uma solução recursiva, desde que a linguagem utilizada suporte
+  grandes números, como o BigInteger em Java. No entanto, a recursão profunda 
+  pode causar estouro de pilha (StackOverflowError) em algumas linguagens ou ambientes,
+   tornando a abordagem iterativa ou o uso de programação dinâmica mais segura e 
+   eficiente para valores tão grandes.
+   
+   ***************
+   A complexidade de tempo da solução recursiva simples de Fibonacci é O(2^n), devido 
+   à grande quantidade de subproblemas repetidos. Já a solução com programação dinâmica,
+    seja com memoização (top-down) ou abordagem iterativa (bottom-up), reduz a complexidade 
+    para O(n) ao armazenar e reutilizar os resultados de subproblemas previamente calculados, 
+    tornando-a muito mais eficiente e rápida, especialmente para valores grandes de n.
+    
+    ********************************
+    A complexidade de tempo da solução recursiva simples para a série de Fibonacci 
+    é O(2^n), porque muitos subproblemas são recalculados várias vezes. 
+    Em contraste, a solução com programação dinâmica tem complexidade O(n),
+     pois cada subproblema é calculado uma única vez e armazenado para reutilização.
+      A programação dinâmica é melhor porque evita a redundância de cálculos, tornando
+       a execução muito mais eficiente e adequada para valores grandes de n.
